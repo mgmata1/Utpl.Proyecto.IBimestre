@@ -2,7 +2,7 @@
 Repositorio base del proyecto de 1 primestre de Interoperabilidad
 
 ## Descripción
-Este proyecto contiene una API REST básica desarrollada con FastAPI para propósitos educativos. El objetivo es enseñar a los estudiantes cómo trabajar con APIs REST utilizando Python y FastAPI.
+Este proyecto contiene una API REST básica desarrollada con FastAPI para propósitos educativos. El objetivo es enseñar cómo trabajar con APIs REST utilizando Python y FastAPI.
 
 ## Estructura del Proyecto
 ```
@@ -24,16 +24,7 @@ git clone https://github.com/fdquinones1986/Utpl.Proyecto.IBimestre.git
 cd Utpl.Proyecto.IBimestre
 ```
 
-### 2. Crear un entorno virtual (recomendado)
-```bash
-# En Windows
-python -m venv venv
-venv\Scripts\activate
-
-# En Linux/Mac
-python3 -m venv venv
-source venv/bin/activate
-```
+### 2. Crear un entorno virtual con CodeSpace
 
 ### 3. Instalar las dependencias
 ```bash
@@ -117,6 +108,4 @@ Este es un esqueleto básico. Puedes expandir la API agregando:
 - [Tutorial de FastAPI en español](https://fastapi.tiangolo.com/es/)
 - [Python Type Hints](https://docs.python.org/3/library/typing.html)
 
-## Licencia
-Este proyecto es para fines educativos.
 
