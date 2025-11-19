@@ -4,6 +4,9 @@ Este es un esqueleto de API para enseñar a estudiantes
 """
 
 from fastapi import FastAPI
+from modelos.persona_dto import Persona
+
+
 
 # Crear la instancia de FastAPI
 app = FastAPI(
@@ -39,3 +42,10 @@ def informacion():
         "version": "1.0.0",
         "descripcion": "Esta es una API básica creada con FastAPI para propósitos educativos"
     }
+
+@app.post("/personas", response_model=Persona, tags=["Personas"])
+def crear_persona(persona: Persona):
+    """
+    Endpoint para crear una nueva persona
+    """
+    return persona
